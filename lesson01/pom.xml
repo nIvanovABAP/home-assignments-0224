@@ -11,6 +11,15 @@
 
     <artifactId>lesson01</artifactId>
 
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.antlr/maven-gunit-plugin -->
+        <dependency>
+            <groupId>org.antlr</groupId>
+            <artifactId>maven-gunit-plugin</artifactId>
+            <version>3.5.3</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
